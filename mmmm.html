@@ -82,7 +82,12 @@ padding-left: 6px;
 background-repeat: no-repeat;
 background-size: contain;
 }
-
+ <meta name="viewport" content="width=device-width, inital-scale=1.0">
+ @media(max-width: 768px) {
+    .title-box > img { height: 225px !important; object-fit: cover !important; border-radius: 20px !important; }
+    .bookshelf-box{ width: 90% !important; margin: 25px auto !important;}
+    .book-label {font-size: 2.5vw !important;}
+ }
 </style>
 </head>
 
